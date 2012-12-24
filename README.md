@@ -1,3 +1,3 @@
 # Sulfur
 
-Coming <strike>Soon</strike> Eventually - ElasticSearch PHP client
+Coming /*Soon*/ Eventually - ElasticSearch PHP client
