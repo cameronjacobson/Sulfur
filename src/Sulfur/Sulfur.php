@@ -8,7 +8,7 @@ class Sulfur
 	public $twig;
 	protected $template;
 
-	public function __construct($options){
+	public function __construct(){
 		$this->loader = new \Twig_Loader_Filesystem(__DIR__.'/TEMPLATES');
 		$this->twig = new \Twig_Environment($this->loader,[
 			'cache' => __DIR__.'/CACHE'

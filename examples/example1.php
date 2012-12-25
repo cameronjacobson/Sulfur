@@ -1,12 +1,9 @@
 <?php
 
-include('../vendor/autoload.php');
+include(dirname(__DIR__).'/vendor/autoload.php');
 use Sulfur\Sulfur;
 
-$sulfur = new Sulfur([
-	'template_path'=>__DIR__.'/templates',
-	'cache_path'=>__DIR__.'/cache'
-]);
+$sulfur = new Sulfur();
 
 echo $sulfur
 	->hello(['name'=>'blah'])
