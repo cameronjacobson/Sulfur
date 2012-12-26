@@ -2,7 +2,7 @@
 
 namespace Sulfur;
 
-use Sulfur\Twig\Extension;
+use Sulfur\Twig\Extension as SulfurExtension;
 
 class Sulfur
 {
@@ -13,9 +13,10 @@ class Sulfur
 	public function __construct(){
 		$this->loader = new \Twig_Loader_Filesystem(__DIR__.'/TEMPLATES');
 		$this->twig = new \Twig_Environment($this->loader,[
-			'cache' => __DIR__.'/CACHE'
+			'cache' => __DIR__.'/CACHE',
+			'auto_reload' => true
 		]);
-		$this->twig->addExtension(new Extension());
+		$this->twig->addExtension(new SulfurExtension());
 	}
 
 	public function hello($args){

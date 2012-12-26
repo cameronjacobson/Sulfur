@@ -1,2 +1,3 @@
 Hello {{name}}
-{% sulfur.filters.and %}
+{% S_and a="b" %}
+{{ a }}

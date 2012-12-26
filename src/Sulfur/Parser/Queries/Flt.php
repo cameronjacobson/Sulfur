@@ -2,22 +2,22 @@
 
 namespace Sulfur\Parser\Queries;
 
-class Flt extends Twig_TokenParser
+class Flt extends \Twig_TokenParser
 {
-    public function parse(Twig_Token $token)
+    public function parse(\Twig_Token $token)
     {
         $lineno = $token->getLine();
-        $name = $this->parser->getStream()->expect(Twig_Token::NAME_TYPE)->getValue();
-        $this->parser->getStream()->expect(Twig_Token::OPERATOR_TYPE, '=');
+        $name = $this->parser->getStream()->expect(\Twig_Token::NAME_TYPE)->getValue();
+        $this->parser->getStream()->expect(\Twig_Token::OPERATOR_TYPE, '=');
         $value = $this->parser->getExpressionParser()->parseExpression();
 
-        $this->parser->getStream()->expect(Twig_Token::BLOCK_END_TYPE);
+        $this->parser->getStream()->expect(\Twig_Token::BLOCK_END_TYPE);
 
         return new \Sulfur\Node\Queries\Flt($name, $value, $lineno, $this->getTag());
     }
 
     public function getTag()
     {
-        return 'sulfur.flt';
+        return 'S_flt';
     }
 }

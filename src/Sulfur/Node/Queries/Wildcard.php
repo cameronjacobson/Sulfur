@@ -2,14 +2,14 @@
 
 namespace Sulfur\Node\Queries;
 
-class Wildcard extends Twig_Node
+class Wildcard extends \Twig_Node
 {
-    public function __construct($name, Twig_Node_Expression $value, $lineno, $tag = null)
+    public function __construct($name, \Twig_Node_Expression $value, $lineno, $tag = null)
     {
         parent::__construct(array('value' => $value), array('name' => $name), $lineno, $tag);
     }
 
-    public function compile(Twig_Compiler $compiler)
+    public function compile(\Twig_Compiler $compiler)
     {
         $compiler
             ->addDebugInfo($this)
