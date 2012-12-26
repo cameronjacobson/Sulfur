@@ -2,6 +2,8 @@
 
 namespace Sulfur;
 
+use Sulfur\Twig\Extension;
+
 class Sulfur
 {
 	public $loader;
@@ -13,6 +15,7 @@ class Sulfur
 		$this->twig = new \Twig_Environment($this->loader,[
 			'cache' => __DIR__.'/CACHE'
 		]);
+		$this->twig->addExtension(new Extension());
 	}
 
 	public function hello($args){
@@ -27,7 +30,7 @@ class Sulfur
 		return $this;
 	}
 
-	public function render($template,$args){
+	public function render(){
 		return $this->template;
 	}
 }
