@@ -18,6 +18,6 @@ class SpanNot extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_span_not';
+        return 'S_query_span_not';
     }
 }

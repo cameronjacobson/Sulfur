@@ -18,6 +18,6 @@ class GeoDistanceRange extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_geo_distance_range';
+        return 'S_filter_geo_distance_range';
     }
 }

@@ -18,6 +18,6 @@ class Not extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_not';
+        return 'S_filter_not';
     }
 }

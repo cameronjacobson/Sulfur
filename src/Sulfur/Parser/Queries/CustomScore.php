@@ -18,6 +18,6 @@ class CustomScore extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_custom_score';
+        return 'S_query_custom_score';
     }
 }

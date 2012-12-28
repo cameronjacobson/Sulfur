@@ -18,6 +18,6 @@ class Text extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_text';
+        return 'S_query_text';
     }
 }

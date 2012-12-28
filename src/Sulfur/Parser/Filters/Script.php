@@ -18,6 +18,6 @@ class Script extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_script';
+        return 'S_filter_script';
     }
 }

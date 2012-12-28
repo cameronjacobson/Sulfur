@@ -18,6 +18,6 @@ class Query extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_query';
+        return 'S_filter_query';
     }
 }

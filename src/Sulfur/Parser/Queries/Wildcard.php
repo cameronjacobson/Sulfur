@@ -18,6 +18,6 @@ class Wildcard extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_wildcard';
+        return 'S_query_wildcard';
     }
 }

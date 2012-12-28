@@ -18,6 +18,6 @@ class ConstantScore extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_constant_score';
+        return 'S_query_constant_score';
     }
 }

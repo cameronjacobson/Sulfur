@@ -18,6 +18,6 @@ class CustomBoostFactor extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_custom_boost_factor';
+        return 'S_query_custom_boost_factor';
     }
 }

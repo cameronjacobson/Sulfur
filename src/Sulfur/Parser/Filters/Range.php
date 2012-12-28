@@ -18,6 +18,6 @@ class Range extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_range';
+        return 'S_filter_range';
     }
 }

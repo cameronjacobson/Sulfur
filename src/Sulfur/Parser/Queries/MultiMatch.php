@@ -18,6 +18,6 @@ class MultiMatch extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_multi_match';
+        return 'S_query_multi_match';
     }
 }

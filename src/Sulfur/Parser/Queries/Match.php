@@ -18,6 +18,6 @@ class Match extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_match';
+        return 'S_query_match';
     }
 }

@@ -18,6 +18,6 @@ class AndFilter extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_and';
+        return 'S_filter_and';
     }
 }

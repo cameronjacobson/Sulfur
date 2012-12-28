@@ -18,6 +18,6 @@ class Flt extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_flt';
+        return 'S_query_flt';
     }
 }

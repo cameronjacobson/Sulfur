@@ -18,6 +18,6 @@ class Missing extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_missing';
+        return 'S_filter_missing';
     }
 }

@@ -18,6 +18,6 @@ class Fuzzy extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_fuzzy';
+        return 'S_query_fuzzy';
     }
 }

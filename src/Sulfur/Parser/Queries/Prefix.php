@@ -18,6 +18,6 @@ class Prefix extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_prefix';
+        return 'S_query_prefix';
     }
 }

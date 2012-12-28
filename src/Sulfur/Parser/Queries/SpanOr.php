@@ -18,6 +18,6 @@ class SpanOr extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_span_or';
+        return 'S_query_span_or';
     }
 }

@@ -18,6 +18,6 @@ class Limit extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_limit';
+        return 'S_filter_limit';
     }
 }

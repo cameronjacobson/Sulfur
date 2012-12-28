@@ -18,6 +18,6 @@ class Exists extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_exists';
+        return 'S_filter_exists';
     }
 }

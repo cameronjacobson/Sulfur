@@ -18,6 +18,6 @@ class Boosting extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_boosting';
+        return 'S_query_boosting';
     }
 }

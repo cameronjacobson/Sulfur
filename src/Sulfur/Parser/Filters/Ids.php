@@ -18,6 +18,6 @@ class Ids extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_ids';
+        return 'S_filter_ids';
     }
 }

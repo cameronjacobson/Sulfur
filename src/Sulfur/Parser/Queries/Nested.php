@@ -18,6 +18,6 @@ class Nested extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_nested';
+        return 'S_query_nested';
     }
 }

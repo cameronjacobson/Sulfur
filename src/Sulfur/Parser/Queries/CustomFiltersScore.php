@@ -18,6 +18,6 @@ class CustomFiltersScore extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_custom_filters_score';
+        return 'S_query_custom_filters_score';
     }
 }

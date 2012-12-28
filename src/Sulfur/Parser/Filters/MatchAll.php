@@ -18,6 +18,6 @@ class MatchAll extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_match_all';
+        return 'S_filter_match_all';
     }
 }

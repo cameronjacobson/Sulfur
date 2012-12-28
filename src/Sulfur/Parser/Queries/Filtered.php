@@ -18,6 +18,6 @@ class Filtered extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_filtered';
+        return 'S_query_filtered';
     }
 }

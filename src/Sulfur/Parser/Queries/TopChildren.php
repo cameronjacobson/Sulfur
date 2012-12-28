@@ -18,6 +18,6 @@ class TopChildren extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_top_children';
+        return 'S_query_top_children';
     }
 }

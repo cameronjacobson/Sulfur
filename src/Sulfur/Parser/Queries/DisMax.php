@@ -18,6 +18,6 @@ class DisMax extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_dis_max';
+        return 'S_query_dis_max';
     }
 }

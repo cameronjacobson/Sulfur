@@ -18,6 +18,6 @@ class HasParent extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_has_parent';
+        return 'S_filter_has_parent';
     }
 }

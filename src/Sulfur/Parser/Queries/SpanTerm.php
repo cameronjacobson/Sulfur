@@ -18,6 +18,6 @@ class SpanTerm extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_span_term';
+        return 'S_query_span_term';
     }
 }

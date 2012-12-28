@@ -18,6 +18,6 @@ class NumericRange extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_numeric_range';
+        return 'S_filter_numeric_range';
     }
 }

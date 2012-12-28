@@ -18,6 +18,6 @@ class Bool extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_bool';
+        return 'S_query_bool';
     }
 }

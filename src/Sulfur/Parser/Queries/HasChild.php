@@ -18,6 +18,6 @@ class HasChild extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_has_child';
+        return 'S_query_has_child';
     }
 }

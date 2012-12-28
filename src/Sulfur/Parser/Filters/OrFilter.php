@@ -18,6 +18,6 @@ class OrFilter extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_or';
+        return 'S_filter_or';
     }
 }

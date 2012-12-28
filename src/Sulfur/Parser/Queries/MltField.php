@@ -18,6 +18,6 @@ class MltField extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_mlt_field';
+        return 'S_query_mlt_field';
     }
 }

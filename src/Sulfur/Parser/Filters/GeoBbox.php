@@ -18,6 +18,6 @@ class GeoBbox extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_geo_bbox';
+        return 'S_filter_geo_bbox';
     }
 }

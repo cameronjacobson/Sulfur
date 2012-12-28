@@ -18,6 +18,6 @@ class Type extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_type';
+        return 'S_filter_type';
     }
 }

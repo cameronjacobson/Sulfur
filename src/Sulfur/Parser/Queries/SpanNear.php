@@ -18,6 +18,6 @@ class SpanNear extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_span_near';
+        return 'S_query_span_near';
     }
 }

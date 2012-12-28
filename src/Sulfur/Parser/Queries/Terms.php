@@ -18,6 +18,6 @@ class Terms extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_terms';
+        return 'S_query_terms';
     }
 }

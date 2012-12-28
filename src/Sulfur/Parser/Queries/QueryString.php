@@ -18,6 +18,6 @@ class QueryString extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_query_string';
+        return 'S_query_query_string';
     }
 }

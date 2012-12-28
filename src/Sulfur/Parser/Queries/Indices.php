@@ -18,6 +18,6 @@ class Indices extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_indices';
+        return 'S_query_indices';
     }
 }

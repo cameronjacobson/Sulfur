@@ -18,6 +18,6 @@ class Field extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_field';
+        return 'S_query_field';
     }
 }

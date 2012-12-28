@@ -18,6 +18,6 @@ class SpanFirst extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_span_first';
+        return 'S_query_span_first';
     }
 }

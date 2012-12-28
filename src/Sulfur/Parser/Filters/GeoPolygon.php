@@ -18,6 +18,6 @@ class GeoPolygon extends \Twig_TokenParser
 
     public function getTag()
     {
-        return 'S_geo_polygon';
+        return 'S_filter_geo_polygon';
     }
 }
